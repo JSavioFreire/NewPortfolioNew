@@ -40,13 +40,12 @@ export const ComponentMenu = styled.a`
     padding-left: 40px;
     
     &:hover{
-        background-color: #6473E0;
+        background-color: #5E90E0;
         color: black;
         text-shadow: none;
         font-size: 28px;
-        border: 1px solid #2C3261;
-        border-radius: 0 20px 20px 0;
-        box-shadow: 2px 2px 5px black;
+        border-radius: 0 5px 5px 0;
+        box-shadow: 0 0 7px #68A0FA, 0 0 15px #5E90E0, 0 0 30px #4E78BA, 0 0 50px #334F7A, 0 0 100px #19263B;
     }
 
 `
@@ -61,8 +60,15 @@ export const Principal = styled.div`
     width: 600px;
     height: 300px;
 `
-export const Box = styled.h2`
+export const H2 = styled.h2`
     color: white;
     font-family: 'Mulish', sans-serif;
 
+`
+export const Box = styled.div`
+    width: 400px;
+    height: 200px;
+    background-color: #5E90E0;
+    box-shadow: 0 0 7px #68A0FA, 0 0 15px #5E90E0, 0 0 30px #4E78BA, 0 0 50px #334F7A, 0 0 100px #19263B;
+    border-radius: 5px;
 `

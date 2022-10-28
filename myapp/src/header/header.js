@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap"
-import { All,TopRight,Menu,ComponentMenu,Principal,Flex,Box } from "./styleHeader"
+import { All,TopRight,Menu,ComponentMenu,Principal,Flex,H2,Box } from "./styleHeader"
 
 export default function Header(){
 
@@ -15,8 +15,11 @@ export default function Header(){
                 </Menu>
                 <Flex>
                     <Principal>
-                        <Box>
+                        <H2>
                             O Meu Sonho...
+                        </H2>
+                        <Box>
+                            
                         </Box>
                     </Principal>
                 </Flex>
