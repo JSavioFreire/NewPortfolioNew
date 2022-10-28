@@ -1,11 +1,14 @@
 import React from 'react'
-import { All,TopRight,Menu,ComponentMenu,Principal,Flex,H2,Box } from "./styleHeader"
+import { All,TopRight,Menu,ComponentMenu,Principal,Flex,H2,Box,Led,LedRight,LedTop,TopLeft} from "./styleHeader"
 import Tilt from 'react-parallax-tilt'
 
 export default function Header(){
 
     return(
             <All>
+                <TopLeft>
+                    SF
+                </TopLeft>
                 <TopRight >
                     Focus Determination Constancy
                 </TopRight>
@@ -24,15 +27,13 @@ export default function Header(){
                 <Flex>
                     <Principal>
                         <H2>
-                            O Meu Sonho...
+                            Desenvolvendo Soluções para chegar cada vez mais longe!
                         </H2>
-                        
-                        <Box>
-                        
-                        </Box>
-                        
                     </Principal>
                 </Flex>
+                <Led/>
+                <LedRight/>
+                <LedTop/>
             </All>   
     
     )
