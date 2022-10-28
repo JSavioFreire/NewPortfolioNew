@@ -47,6 +47,15 @@ const come = keyframes`
         opacity: 0;
     }
 `
+export const Div = styled.div`
+    width: 100%;
+    transition: 1s;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: #1B191B;
+
+`
 
 export const All = styled.div`
     background-color: #1B191B;
@@ -59,7 +68,7 @@ export const All = styled.div`
 `
 export const Hi = styled.h1`
     font-size: 120px;
-    color: #4169e1;
+    color: #6473E0;
     animation: ${show} 1s,  ${hide} 1s 4.2s;
     text-shadow: 2px 2px 5px black;
     transition: 0.5s;

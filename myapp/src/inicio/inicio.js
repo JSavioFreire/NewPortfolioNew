@@ -1,6 +1,8 @@
 import { useState } from "react"
 import { useEffect } from "react"
-import { Hi,All,About } from "./StyleInicio"
+import { Hi,All,About,Div } from "./StyleInicio"
+
+import Header from "../header/header"
 
 export default function Inicio(){
 
@@ -13,8 +15,6 @@ export default function Inicio(){
 
        
 })
-
-
 
 
     if(start == true){
@@ -31,9 +31,9 @@ export default function Inicio(){
     }
     else if(start == false){
         return(
-            <div>
-                
-            </div>
+            <Div>
+                <Header/>
+            </Div>
         )
     }
     
