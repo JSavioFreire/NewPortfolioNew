@@ -24,7 +24,7 @@ const hide = keyframes`
         opacity: 0;
     }
     100%{
-        font-size: 2000px;
+        font-size: 1000px;
         opacity: 0;
     }
     
@@ -68,9 +68,9 @@ export const All = styled.div`
 `
 export const Hi = styled.h1`
     font-size: 120px;
-    color: #6473E0;
+    color: #5E90E0;
     animation: ${show} 1s,  ${hide} 1s 4.2s;
-    text-shadow: 2px 2px 5px black;
+    text-shadow:0 0 2px #68A0FA, 0 0 3px #5E90E0, 0 0 5px #4E78BA, 0 0 10px #334F7A, 0 0 20px #19263B;
     transition: 0.5s;
 `
 export const About = styled.h3`
