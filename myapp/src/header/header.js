@@ -1,6 +1,7 @@
 import { TopRight,Menu,ComponentMenu,Principal,Flex,H2,H1,Box,Led,LedRight,LedTop,TopLeft,Rocket,Icon} from "./styleHeader";
 import Tilt from 'react-parallax-tilt';
 import { IoIosArrowDown } from 'react-icons/io';
+import curriculo from '../img/curriculo.pdf'
 
 
 import rocket from '../img/rocket.gif'
@@ -14,7 +15,7 @@ export default function Header(){
         menu[1] = document.querySelector('.menu')
         menu[2] = document.querySelector('.menu2')
         menu[3] = document.querySelector('.menu3')
-        menu[3] = document.querySelector('.menu4')
+
     const arrow = document.querySelector('.arrow')
 
     if(altura < 200){
@@ -38,7 +39,7 @@ export default function Header(){
 
     return(
         <div >
-            <TopLeft>
+            <TopLeft href="#">
                     SF
             </TopLeft>
             <TopRight >
@@ -46,16 +47,13 @@ export default function Header(){
             </TopRight>
             <Menu>
                 <Tilt >
-                <ComponentMenu href="#" className="menu" >Sobre Mim</ComponentMenu>
+                <ComponentMenu href="#sobre" className="menu" >Sobre Mim</ComponentMenu>
                 </Tilt>
                 <Tilt >
-                <ComponentMenu href="#" className="menu2">Projetos</ComponentMenu>
+                <ComponentMenu href="#projeto" className="menu2">Projetos</ComponentMenu>
                 </Tilt>
                 <Tilt >
-                <ComponentMenu href="#" className="menu3">Contato</ComponentMenu>
-                </Tilt>
-                <Tilt >
-                <ComponentMenu href="#" className="menu4">Currículo</ComponentMenu>
+                <ComponentMenu href={curriculo} download className="menu3">Currículo</ComponentMenu>
                 </Tilt>
             </Menu>
             

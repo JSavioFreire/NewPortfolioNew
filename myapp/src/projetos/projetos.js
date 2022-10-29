@@ -11,7 +11,7 @@ export default function Projetos(){
 
 
     return(
-        <All>
+        <All id="projeto">
             <Title>Meu Projetos</Title>
 
         <Flex>

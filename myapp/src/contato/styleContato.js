@@ -14,10 +14,15 @@ export const Fale = styled.h1`
 
 `
 export const Redes = styled.div`
-    color: #D2D4D1;
+
     display: flex;
     justify-content: space-between;
     width: 200px;
     font-size: 30px;
     margin-left: 50px;
+`
+export const A = styled.a`
+    color: #D2D4D1;
+    cursor: pointer;
+
 `

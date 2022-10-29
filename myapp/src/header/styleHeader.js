@@ -171,7 +171,7 @@ export const LedTop = styled.div`
     left: 0;
     box-shadow: 0 0 10px #68A0FA, 0 0 15px #5E90E0, 0 0 30px #4E78BA, 0 0 50px #334F7A, 0 0 100px #19263B;
 `
-export const TopLeft =styled.div`
+export const TopLeft =styled.a`
     text-shadow: 0 0 2px #68A0FA, 0 0 4px #5E90E0, 0 0 6px #4E78BA, 0 0 8px #334F7A, 0 0 10px #19263B;
     color: #D2D4D1;
     position: fixed;
@@ -186,6 +186,7 @@ export const TopLeft =styled.div`
     justify-content: center;
     transform: rotate(360deg);
     cursor: pointer;
+    text-decoration: none;
 
     &:hover{
         animation: ${Girar} 0.5s;
