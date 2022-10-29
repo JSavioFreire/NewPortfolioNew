@@ -14,6 +14,7 @@ export const SobreDiv = styled.div`
     width: 100%;
     background-color: #1C1A1C;
     padding-top: 20px;
+    overflow: hidden;
 `
 export const Foto = styled.img`
     width: 220px;
