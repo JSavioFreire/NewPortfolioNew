@@ -21,7 +21,26 @@ const see = keyframes`
         font-size: 24px;
     }
 `
+const jump = keyframes`
+    0%,100%{
+        bottom: 0;
+    }
+    50%{
+        bottom: 15px;
+        font-size: 40px;
+    }
+`
+export const Icon = styled.div`
+    position: absolute;
+    width: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    bottom: 0px;
+    animation: ${jump} 1s infinite;
 
+`
 
 export const All = styled.div`
     width: 100vw;

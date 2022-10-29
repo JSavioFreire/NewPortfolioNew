@@ -1,6 +1,8 @@
 import React from 'react'
-import { All,TopRight,Menu,ComponentMenu,Principal,Flex,H2,H1,Box,Led,LedRight,LedTop,TopLeft,Rocket} from "./styleHeader"
+import { All,TopRight,Menu,ComponentMenu,Principal,Flex,H2,H1,Box,Led,LedRight,LedTop,TopLeft,Rocket,Icon} from "./styleHeader"
 import Tilt from 'react-parallax-tilt'
+
+import { IoIosArrowDown } from 'react-icons/io';
 
 import rocket from '../img/rocket.gif'
 
@@ -45,6 +47,10 @@ export default function Header(){
                 <Led/>
                 <LedRight/>
                 <LedTop/>
+                <Icon>
+                    <IoIosArrowDown />
+                </Icon>
+                
             </All>   
     
     )
