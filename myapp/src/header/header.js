@@ -14,6 +14,7 @@ export default function Header(){
         menu[1] = document.querySelector('.menu')
         menu[2] = document.querySelector('.menu2')
         menu[3] = document.querySelector('.menu3')
+        menu[3] = document.querySelector('.menu4')
     const arrow = document.querySelector('.arrow')
 
     if(altura < 200){
@@ -51,7 +52,10 @@ export default function Header(){
                 <ComponentMenu href="#" className="menu2">Projetos</ComponentMenu>
                 </Tilt>
                 <Tilt >
-                <ComponentMenu href="#" className="menu3">Currículo</ComponentMenu>
+                <ComponentMenu href="#" className="menu3">Contato</ComponentMenu>
+                </Tilt>
+                <Tilt >
+                <ComponentMenu href="#" className="menu4">Currículo</ComponentMenu>
                 </Tilt>
             </Menu>
             

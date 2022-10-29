@@ -44,6 +44,13 @@ export const TextSobre = styled.p`
     text-indent: 20px;
     padding: 15px;
     box-shadow: 0 0 7px #68A0FA, 0 0 15px #5E90E0, 0 0 30px #4E78BA, 0 0 50px #334F7A, 0 0 100px #19263B;
+        &:hover{
+            color: #1B191B;
+            background-color: #D2D4D1;
+            transition: 1s;
+
+            
+        }
 `
 export const Hab = styled.div`
     width: 100px;
