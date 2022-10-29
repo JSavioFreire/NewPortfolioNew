@@ -32,6 +32,10 @@ export const Flex = styled.div`
     align-items: center;
     width: 80%;
     margin: 60px auto;
+    @media (max-width: 768px) {
+    font-size: 18px;
+        flex-direction: column;
+    }
 
 `
 export const TextSobre = styled.p`
@@ -44,6 +48,13 @@ export const TextSobre = styled.p`
     text-indent: 20px;
     padding: 15px;
     box-shadow: 0 0 7px #68A0FA, 0 0 15px #5E90E0, 0 0 30px #4E78BA, 0 0 50px #334F7A, 0 0 100px #19263B;
+    @media (max-width: 768px) {
+    font-size: 16px;
+    width: 80%;
+    margin: 10px auto;
+
+        
+    }
         &:hover{
             color: #1B191B;
             background-color: #D2D4D1;

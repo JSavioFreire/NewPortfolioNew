@@ -69,6 +69,10 @@ export const TopRight = styled.div`
     right: 0px;
     transition: 5s;
     cursor: default;
+    @media (max-width: 768px) {
+    font-size: 18px;
+        
+    }
         &:hover{
             text-shadow: 0 0 2px #68A0FA, 0 0 4px #5E90E0, 0 0 6px #4E78BA, 0 0 8px #334F7A, 0 0 10px #19263B;
     }
@@ -124,12 +128,21 @@ export const H2 = styled.h2`
     font-size: 24px;
     font-family: 'Mulish', sans-serif;
     animation: ${see} 1s;
+    @media (max-width: 768px) {
+        font-size: 18px;
+  }
 
 `
 export const H1 = styled.h1`
     color: #D2D4D1;
     font-family: 'Mulish', sans-serif;
     font-size: 40px;
+  
+    margin-right: 20px;
+    @media (max-width: 768px) {
+        font-size: 35px;
+        text-align: right;
+  }
 
 `
 export const Box = styled.div`
@@ -139,6 +152,12 @@ export const Box = styled.div`
     border-radius: 5px;
     padding: 10px 20px;
     display: flex;
+    @media (max-width: 768px) {
+        padding: 5px 10px;
+        width: 90%;
+        margin: 0 auto;
+   
+    }
 
 `
 export const P = styled.p`
@@ -203,3 +222,4 @@ export const Rocket = styled.img`
 
 
 `
+
