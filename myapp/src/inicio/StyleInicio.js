@@ -65,9 +65,9 @@ export const All = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
     overflow: hidden;
+    width: 100%;
+    height: 100vh;
 `
 export const Hi = styled.h1`
     font-size: 120px;
@@ -87,12 +87,4 @@ export const About = styled.h3`
     
 `
 
-export const Div = styled.div`
-    width: 100%;
-    background-color: #1B191B;
-    animation: ${see} 2s ;
-    display: flex;
-    flex-direction: column;
 
-
-`

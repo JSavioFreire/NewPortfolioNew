@@ -31,19 +31,22 @@ const jump = keyframes`
     }
 `
 export const Icon = styled.div`
-    position: absolute;
-    width: 200px;
+    
+    
     color: white;
     display: flex;
     justify-content: center;
     font-size: 20px;
-    bottom: 0px;
+    align-items: flex-end;
+    position: relative;
+    top: -50px;
     animation: ${jump} 1s infinite;
+    transition: 1s;
 
 `
 
 export const All = styled.div`
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: #1B191B;  
     position: absolute;
@@ -54,6 +57,7 @@ export const All = styled.div`
     overflow-x: hidden;
     opacity: 1;
     transition: 1s;
+    flex-direction: column;
     
 `
 export const TopRight = styled.div`

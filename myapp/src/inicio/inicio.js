@@ -1,11 +1,10 @@
 import { useState } from "react"
 import { useEffect } from "react"
-import { Hi,All,About,Div } from "./StyleInicio"
+import { Hi,All,About } from "./StyleInicio"
 
 
 
-import Header from "../header/header"
-import Sobre from "../sobre/sobre"
+import Everything from "../Everything/Everything"
 
 export default function Inicio(){
 
@@ -46,12 +45,9 @@ const [see, setSee] = useState(false)
         ) }
             else if(see == true){
                 return(
-                <All>
-                    <Div>
-                        <Header/>
-                        <Sobre/>
-                    </Div>
-                </All>
+                    <div>
+                        <Everything/>
+                    </div>
             )
             }
             
