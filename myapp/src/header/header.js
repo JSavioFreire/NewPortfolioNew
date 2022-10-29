@@ -1,6 +1,8 @@
 import React from 'react'
-import { All,TopRight,Menu,ComponentMenu,Principal,Flex,H2,Box,Led,LedRight,LedTop,TopLeft} from "./styleHeader"
+import { All,TopRight,Menu,ComponentMenu,Principal,Flex,H2,H1,Box,Led,LedRight,LedTop,TopLeft,Rocket} from "./styleHeader"
 import Tilt from 'react-parallax-tilt'
+
+import rocket from '../img/rocket.gif'
 
 export default function Header(){
 
@@ -10,7 +12,7 @@ export default function Header(){
                     SF
                 </TopLeft>
                 <TopRight >
-                    Focus Determination Constancy
+                    Focus Determination Constancy Faith
                 </TopRight>
                 <Menu>
                     <Tilt >
@@ -26,9 +28,18 @@ export default function Header(){
                 
                 <Flex>
                     <Principal>
-                        <H2>
-                            Desenvolvendo Soluções para chegar cada vez mais longe!
-                        </H2>
+                        <H1>Sávio Freire</H1>
+                        <Tilt>
+                            <Box>
+                                <H2>
+                                    Desenvolvendo Soluções para chegar cada vez mais longe!
+                                </H2>
+                                <Rocket src={rocket}/>
+                            </Box>
+                        </Tilt>
+                        <Tilt>
+                            
+                        </Tilt>
                     </Principal>
                 </Flex>
                 <Led/>

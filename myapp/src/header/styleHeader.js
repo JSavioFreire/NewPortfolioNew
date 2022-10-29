@@ -1,4 +1,27 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+
+const Girar = keyframes`
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) ;
+    }
+    
+`
+const see = keyframes`
+    0%{
+        opacity: 0;
+        font-size: 5px;
+    }
+   
+    100%{
+        opacity: 1;
+        font-size: 24px;
+    }
+`
+
 
 export const All = styled.div`
     width: 100vw;
@@ -10,6 +33,9 @@ export const All = styled.div`
     justify-content: center;
     top: 0; 
     overflow-x: hidden;
+    opacity: 1;
+    transition: 1s;
+    
 `
 export const TopRight = styled.div`
     color: #171517;
@@ -17,7 +43,7 @@ export const TopRight = styled.div`
     font-size: 30px;
     position: absolute;
     transform: rotate(90deg) translate(50% , -100%);
-    margin-right: -150px;
+    margin-right: -200px;
     top: 0;
     right: 0px;
     transition: 5s;
@@ -68,18 +94,32 @@ export const Flex = styled.div`
 `
 export const Principal = styled.div`
     height: 300px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+
 `
 export const H2 = styled.h2`
     color: #D2D4D1;
+    font-size: 24px;
     font-family: 'Mulish', sans-serif;
+    animation: ${see} 1s;
+
+`
+export const H1 = styled.h1`
+    color: #D2D4D1;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
 
 `
 export const Box = styled.div`
-    width: 400px;
-    height: 200px;
+
     background-color: #5E90E0;
     box-shadow: 0 0 7px #68A0FA, 0 0 15px #5E90E0, 0 0 30px #4E78BA, 0 0 50px #334F7A, 0 0 100px #19263B;
     border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+
 `
 export const P = styled.p`
     color: white;
@@ -124,9 +164,20 @@ export const TopLeft =styled.div`
     align-items: center;
     display: flex;
     justify-content: center;
+    transform: rotate(360deg);
+    cursor: pointer;
 
     &:hover{
-        transition: 1s;
-        transform: rotate(360deg);
+        animation: ${Girar} 0.5s;
     }
+
+
+   
+`
+
+
+export const Rocket = styled.img`
+    width: 70px;
+
+
 `

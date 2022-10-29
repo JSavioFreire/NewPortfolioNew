@@ -2,6 +2,8 @@ import { useState } from "react"
 import { useEffect } from "react"
 import { Hi,All,About,Div } from "./StyleInicio"
 
+
+
 import Header from "../header/header"
 
 export default function Inicio(){
@@ -15,6 +17,8 @@ export default function Inicio(){
 
        
 })
+
+const [see, setSee] = useState(false)
 
 
     if(start == true){
@@ -30,11 +34,29 @@ export default function Inicio(){
         )
     }
     else if(start == false){
+        if(see == false){
+            setTimeout(() => {
+                setSee(true)
+            }, 1000)
         return(
-            <Div>
-                <Header/>
-            </Div>
-        )
+            <All>
+
+            </All>
+        ) }
+            else if(see == true){
+                return(
+                <All>
+                    <Div>
+                        <Header/>
+                    </Div>
+                </All>
+            )
+            }
+            
+       
+
+
+        
     }
     
 

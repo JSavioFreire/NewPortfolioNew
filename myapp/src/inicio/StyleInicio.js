@@ -11,6 +11,18 @@ const show = keyframes`
         font-size: 120px;
     }
 `
+const see = keyframes`
+    0%{
+        opacity: 0;
+        
+
+    }
+   
+    100%{
+        opacity: 1;
+
+    }
+`
 
 const hide = keyframes`
     0%{
@@ -47,15 +59,6 @@ const come = keyframes`
         opacity: 0;
     }
 `
-export const Div = styled.div`
-    width: 100%;
-    transition: 1s;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    background-color: #1B191B;
-
-`
 
 export const All = styled.div`
     background-color: #1B191B;
@@ -84,3 +87,13 @@ export const About = styled.h3`
     
 `
 
+export const Div = styled.div`
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: #1B191B;
+    animation: ${see} 2s ;
+
+
+`
