@@ -1,12 +1,9 @@
-import { TopRight,Menu,ComponentMenu,Principal,Flex,H2,H1,Box,Led,LedRight,LedTop,TopLeft,Rocket,Icon} from "./styleheader"
-import Tilt from 'react-parallax-tilt'
+import { TopRight,Menu,ComponentMenu,Principal,Flex,H2,H1,Box,Led,LedRight,LedTop,TopLeft,Rocket,Icon} from "./styleHeader";
+import Tilt from 'react-parallax-tilt';
 import { IoIosArrowDown } from 'react-icons/io';
-import React from "react";
-
 
 
 import rocket from '../img/rocket.gif'
-import { useState } from "react";
 
 export default function Header(){
     
@@ -21,13 +18,13 @@ export default function Header(){
 
     if(altura < 200){
         menu.forEach(el => {
-            el.style.fontSize = '25px';
+            el.style.fontSize = '27px';
         });
         arrow.style.opacity=1
         
     }else if(altura >=200) {
         menu.forEach(el => {
-            el.style.fontSize = '17px';
+            el.style.fontSize = '19px';
         });
         arrow.style.opacity=0
     }

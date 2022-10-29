@@ -31,15 +31,13 @@ const jump = keyframes`
     }
 `
 export const Icon = styled.div`
-    
-    
     color: white;
-    display: flex;
-    justify-content: center;
+    top: 90vh;
+    height: 20px;
+    left: 50%;
+    transform: translate(-50%);
     font-size: 20px;
-    align-items: flex-end;
-    position: relative;
-    top: -50px;
+    position: absolute;
     animation: ${jump} 1s infinite;
     transition: 1s;
 
@@ -101,7 +99,6 @@ export const ComponentMenu = styled.a`
         background-color: #5E90E0;
         color: black;
         text-shadow: none;
-        font-size: 28px;
         border-radius: 0 5px 5px 0;
         box-shadow: 0 0 7px #68A0FA, 0 0 15px #5E90E0, 0 0 30px #4E78BA, 0 0 50px #334F7A, 0 0 100px #19263B;
         padding-right: 20px;

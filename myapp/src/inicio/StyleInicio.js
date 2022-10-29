@@ -11,18 +11,7 @@ const show = keyframes`
         font-size: 120px;
     }
 `
-const see = keyframes`
-    0%{
-        opacity: 0;
-        
 
-    }
-   
-    100%{
-        opacity: 1;
-
-    }
-`
 
 const hide = keyframes`
     0%{

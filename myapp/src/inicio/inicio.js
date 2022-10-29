@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useEffect } from "react"
-import { Hi,All,About } from "./StyleInicio"
+import { Hi,All,About } from "./styleInicio"
 
 
 
