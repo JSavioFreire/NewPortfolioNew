@@ -4,6 +4,7 @@ import { All } from "./styleEverything"
 
 import Header from '../header/header';
 import Sobre from '../sobre/sobre';
+import Projetos from '../projetos/projetos.js'
 
 export default function Everything(){
 
@@ -11,6 +12,7 @@ export default function Everything(){
             <All>
                 <Header/>
                 <Sobre/>
+                <Projetos/>
             </All>   
     
     )

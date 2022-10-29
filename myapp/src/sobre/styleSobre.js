@@ -12,8 +12,8 @@ const Girar = keyframes`
 
 export const SobreDiv = styled.div`
     width: 100%;
-    background-color: #1C1A1C;
-    padding-top: 20px;
+    background-color: #1B191B;
+    padding-top: 60px;
     overflow: hidden;
 `
 export const Foto = styled.img`
@@ -51,6 +51,7 @@ export const Hab = styled.div`
     background-color: black;
     border-radius: 50%;
     margin-top: 20px;
+    margin-bottom: 60px ;
     display: flex;
     transition: 1s;
     justify-content: center;
