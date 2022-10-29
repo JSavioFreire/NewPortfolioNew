@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const All = styled.div`
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 50px;
 `
 export const ProjetosPrincipais = styled.div`
     width: 50%;
