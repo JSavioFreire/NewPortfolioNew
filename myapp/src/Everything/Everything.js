@@ -4,7 +4,7 @@ import { All } from "./styleEverything"
 
 import Header from '../header/header';
 import Sobre from '../sobre/sobre';
-import Projetos from '../projetos/projetos.js'
+import Projetos from '../projetos/projetos';
 
 export default function Everything(){
 

@@ -64,25 +64,32 @@ export default function Sobre(){
                         <TbBrandReactNative style={{color:'#5CCFEE'}}/>
                     </Hab>
                 </Tilt>
-                <Hab>
-                    <IoLogoJavascript style={{color:'#EAD41C'}}/>
-                </Hab>
-
-                <Hab>
-                    <SiStyledcomponents style={{color:'#C97FB3'}}/>
-                </Hab>
-
-                <Hab>
-                    <FaBootstrap style={{color:'#523A76'}}/>
-                </Hab>
-
-                <Hab>
-                    <FaCss3Alt style={{color:'#2449D8'}}/>
-                </Hab>
-
-                <Hab>
-                    <AiFillHtml5 style={{color:'#FF5722'}}/>
-                </Hab>
+                <Tilt>
+                    <Hab>
+                        <IoLogoJavascript style={{color:'#EAD41C'}}/>
+                    </Hab>
+                </Tilt>
+                <Tilt>
+                    <Hab>
+                        <SiStyledcomponents style={{color:'#C97FB3'}}/>
+                    </Hab>
+                </Tilt>
+                <Tilt>
+                    <Hab>
+                        <FaBootstrap style={{color:'#523A76'}}/>
+                    </Hab>
+                </Tilt>
+                <Tilt>
+                    <Hab>
+                        <FaCss3Alt style={{color:'#2449D8'}}/>
+                    </Hab>
+                </Tilt>
+                <Tilt>
+                    <Hab>
+                        <AiFillHtml5 style={{color:'#FF5722'}}/>
+                    </Hab>
+                </Tilt>
+                
                 
             </Flex>
         </SobreDiv>

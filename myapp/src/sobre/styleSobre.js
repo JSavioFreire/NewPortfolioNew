@@ -31,7 +31,7 @@ export const Flex = styled.div`
     justify-content: space-evenly;
     align-items: center;
     width: 80%;
-    margin: 0 auto;
+    margin: 60px auto;
 
 `
 export const TextSobre = styled.p`
@@ -67,5 +67,5 @@ export const Title = styled.h2`
     justify-content: center;
     color: #D2D4D1;
     font-size: 30px;
-    margin-top: 80px;
+    margin-top: 0px;
 `

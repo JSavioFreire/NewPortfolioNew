@@ -198,6 +198,7 @@ export const TopLeft =styled.div`
 
 export const Rocket = styled.img`
     width: 70px;
+    
 
 
 `
