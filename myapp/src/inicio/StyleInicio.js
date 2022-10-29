@@ -89,11 +89,10 @@ export const About = styled.h3`
 
 export const Div = styled.div`
     width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 0;
     background-color: #1B191B;
     animation: ${see} 2s ;
+    display: flex;
+    flex-direction: column;
 
 
 `

@@ -5,6 +5,7 @@ import { Hi,All,About,Div } from "./StyleInicio"
 
 
 import Header from "../header/header"
+import Sobre from "../sobre/sobre"
 
 export default function Inicio(){
 
@@ -48,6 +49,7 @@ const [see, setSee] = useState(false)
                 <All>
                     <Div>
                         <Header/>
+                        <Sobre/>
                     </Div>
                 </All>
             )
