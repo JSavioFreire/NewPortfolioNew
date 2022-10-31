@@ -3,7 +3,6 @@ import Tilt from 'react-parallax-tilt';
 import { IoIosArrowDown } from 'react-icons/io';
 import curriculo from '../img/curriculo.pdf'
 
-
 import rocket from '../img/rocket.gif'
 
 export default function Header(){

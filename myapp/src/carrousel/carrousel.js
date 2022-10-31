@@ -5,21 +5,28 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 import "./styles.css";
 
 // import required modules
-import { Pagination } from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function App(props) {
   return (
     <>
       <Swiper
-        spaceBetween={1}
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide><img src={props.foto1}/></SwiperSlide>
