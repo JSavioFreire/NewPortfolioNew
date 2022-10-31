@@ -32,10 +32,7 @@ export const Flex = styled.div`
     align-items: center;
     width: 80%;
     margin: 60px auto;
-    @media (max-width: 768px) {
-    font-size: 18px;
-        flex-direction: column;
-    }
+    flex-wrap: wrap;
 
 `
 export const TextSobre = styled.p`
@@ -50,8 +47,8 @@ export const TextSobre = styled.p`
     box-shadow: 0 0 7px #68A0FA, 0 0 15px #5E90E0, 0 0 30px #4E78BA, 0 0 50px #334F7A, 0 0 100px #19263B;
     @media (max-width: 768px) {
     font-size: 16px;
-    width: 80%;
-    margin: 10px auto;
+    width: 90%;
+    margin: 20px auto;
 
         
     }
@@ -76,6 +73,8 @@ export const Hab = styled.div`
     align-items: center;
     font-size: 70px;
     box-shadow: 0 0 7px #68A0FA, 0 0 15px #5E90E0, 0 0 30px #4E78BA, 0 0 50px #334F7A, 0 0 100px #19263B;
+
+
         &:hover{
             animation: ${Girar} 0.5s;
     }

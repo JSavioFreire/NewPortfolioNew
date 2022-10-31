@@ -13,8 +13,8 @@ export const ProjetosPrincipais = styled.div`
     cursor: grab;
     box-shadow: 0 0 1px #68A0FA, 0 0 3px #5E90E0, 0 0 5px #4E78BA, 0 0 7px #334F7A, 0 0 10px #19263B;
     @media (max-width: 768px) {
-        width: 90%;
-        height: 250px;
+        width: 100%;
+        height: 200px;
     }
 `
 export const Flex = styled.div`

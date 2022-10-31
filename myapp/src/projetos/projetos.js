@@ -20,7 +20,7 @@ export default function Projetos(){
                 <Carrousel foto1={owfoto} foto2={supremo} foto3={bet} foto4={map} foto5={savio} />
             </ProjetosPrincipais>
                 <SobreProjetos data-aos="zoom-in-left">
-                    Tenho muita experiência com projetos pessoais, gosto muito de me aventurar no desenvolvimento sempre criando coisas novas. Tenho experiência em <strong>React</strong>, <strong>React Native</strong>, <strong>JavaScript</strong>, <strong>Styled-components</strong>, <strong>BootStrap</strong>, <strong>CSS</strong>, <strong>HTML</strong> e projetos <strong>Responsivos</strong>. Já fiz alguns trabalho como <strong>Freelancer</strong> pelo <strong>Workana</strong>.<br/>Estudo Análise e Desenvolvimento de Sistemas pela Universidade Estacio de Sá.
+                    Tenho muita experiência com projetos pessoais, gosto muito de me aventurar no desenvolvimento criando coisas novas. Tenho experiência em <strong>React</strong>, <strong>React Native</strong>, <strong>JavaScript</strong>, <strong>Styled-components</strong>, <strong>BootStrap</strong>, <strong>CSS</strong>, <strong>HTML</strong> e projetos <strong>Responsivos</strong>. Já fiz alguns trabalho como <strong>Freelancer</strong> pelo <strong>Workana</strong>.<br/>Estudo Análise e Desenvolvimento de Sistemas pela Universidade Estacio de Sá.
                 </SobreProjetos>
         </Flex>
 
