@@ -40,6 +40,7 @@ export const Icon = styled.div`
     position: absolute;
     animation: ${jump} 1s infinite;
     transition: 1s;
+    
 
 `
 
@@ -73,8 +74,8 @@ export const TopRight = styled.div`
     font-size: 18px;
         
     }
-        &:hover{
-            text-shadow: 0 0 2px #68A0FA, 0 0 4px #5E90E0, 0 0 6px #4E78BA, 0 0 8px #334F7A, 0 0 10px #19263B;
+    &:hover{
+        text-shadow: 0 0 2px #68A0FA, 0 0 4px #5E90E0, 0 0 6px #4E78BA, 0 0 8px #334F7A, 0 0 10px #19263B;
     }
  
 `
@@ -89,6 +90,10 @@ export const Menu = styled.div`
     justify-content: space-evenly;
     position: fixed;
 
+    @media (max-width: 768px) {
+        display: none;
+   
+    }
 `
 export const ComponentMenu = styled.a`
     text-decoration: none;
@@ -141,7 +146,7 @@ export const H1 = styled.h1`
     margin-right: 20px;
     @media (max-width: 768px) {
         font-size: 35px;
-        text-align: right;
+        margin-left: 30px;
   }
 
 `
@@ -154,8 +159,9 @@ export const Box = styled.div`
     display: flex;
     @media (max-width: 768px) {
         padding: 5px 10px;
-        width: 90%;
+        width: 70%;
         margin: 0 auto;
+        align-items: center;
    
     }
 
@@ -210,6 +216,10 @@ export const TopLeft =styled.a`
     &:hover{
         animation: ${Girar} 0.5s;
     }
+    @media (max-width: 768px) {
+        display: none;
+   
+    }
 
 
    
@@ -218,6 +228,10 @@ export const TopLeft =styled.a`
 
 export const Rocket = styled.img`
     width: 70px;
+    @media (max-width: 768px) {
+        height: 80px;
+   
+    }
     
 
 
