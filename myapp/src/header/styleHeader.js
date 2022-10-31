@@ -21,6 +21,17 @@ const see = keyframes`
         font-size: 24px;
     }
 `
+const seeMobile = keyframes`
+    0%{
+        opacity: 0;
+        font-size: 5px;
+    }
+   
+    100%{
+        opacity: 1;
+        font-size: 18px;
+    }
+`
 const jump = keyframes`
     0%,100%{
         bottom: 0;
@@ -135,6 +146,7 @@ export const H2 = styled.h2`
     animation: ${see} 1s;
     @media (max-width: 768px) {
         font-size: 18px;
+        animation: ${seeMobile} 1s;
   }
 
 `
@@ -162,6 +174,7 @@ export const Box = styled.div`
         width: 70%;
         margin: 0 auto;
         align-items: center;
+        max-height: 100px;
    
     }
 
